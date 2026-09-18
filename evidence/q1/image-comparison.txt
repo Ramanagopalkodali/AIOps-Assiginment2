@@ -1,0 +1,4 @@
+IMAGE                   ID             DISK USAGE   CONTENT SIZE   EXTRA
+spam-api-naive:latest   caf417a41f8a       2.31GB          598MB        
+IMAGE                        ID             DISK USAGE   CONTENT SIZE   EXTRA
+spam-api-multistage:latest   d6a8358ed970        742MB          159MB        

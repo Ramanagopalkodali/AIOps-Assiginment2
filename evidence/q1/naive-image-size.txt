@@ -1,0 +1,2 @@
+IMAGE                   ID             DISK USAGE   CONTENT SIZE   EXTRA
+spam-api-naive:latest   caf417a41f8a       2.31GB          598MB   U    
