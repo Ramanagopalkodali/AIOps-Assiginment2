@@ -1,0 +1,40 @@
+Name:                   spam-api
+Namespace:              default
+CreationTimestamp:      Sat, 19 Sep 2026 15:07:31 +0530
+Labels:                 <none>
+Annotations:            deployment.kubernetes.io/revision: 1
+Selector:               app=spam-api
+Replicas:               2 desired | 2 updated | 2 total | 2 available | 0 unavailable
+StrategyType:           RollingUpdate
+MinReadySeconds:        0
+RollingUpdateStrategy:  25% max unavailable, 25% max surge
+Pod Template:
+  Labels:  app=spam-api
+  Containers:
+   spam-api:
+    Image:      spam-api-multistage:latest
+    Port:       8000/TCP
+    Host Port:  0/TCP
+    Limits:
+      cpu:     500m
+      memory:  512Mi
+    Requests:
+      cpu:         500m
+      memory:      512Mi
+    Readiness:     http-get http://:8000/healthz delay=5s timeout=2s period=5s successThreshold=1 failureThreshold=3
+    Environment:   <none>
+    Mounts:        <none>
+  Volumes:         <none>
+  Node-Selectors:  <none>
+  Tolerations:     <none>
+Conditions:
+  Type           Status  Reason
+  ----           ------  ------
+  Progressing    True    NewReplicaSetAvailable
+  Available      True    MinimumReplicasAvailable
+OldReplicaSets:  <none>
+NewReplicaSet:   spam-api-f49df94d4 (2/2 replicas created)
+Events:
+  Type    Reason             Age    From                   Message
+  ----    ------             ----   ----                   -------
+  Normal  ScalingReplicaSet  7m17s  deployment-controller  Scaled up replica set spam-api-f49df94d4 from 0 to 2

@@ -1,0 +1,13 @@
+
+=== Q3 Validation Results ===
+
+Shard 0: invalid=3 / 20 rows | Pod=signup-validation-job-0-mcnkk | Node=minikube-m02
+Shard 1: invalid=4 / 20 rows | Pod=signup-validation-job-1-xvqqk | Node=minikube
+Shard 2: invalid=5 / 20 rows | Pod=signup-validation-job-2-mw2fl | Node=minikube-m02
+Shard 3: invalid=3 / 20 rows | Pod=signup-validation-job-3-rd65g | Node=minikube
+Shard 4: invalid=4 / 20 rows | Pod=signup-validation-job-4-hbtqn | Node=minikube-m02
+Shard 5: invalid=5 / 20 rows | Pod=signup-validation-job-5-l2kt7 | Node=minikube
+Shard 6: invalid=3 / 20 rows | Pod=signup-validation-job-6-c847k | Node=minikube-m02
+Shard 7: invalid=4 / 20 rows | Pod=signup-validation-job-7-67tdp | Node=minikube
+
+Saved 8 results to q3_results.csv

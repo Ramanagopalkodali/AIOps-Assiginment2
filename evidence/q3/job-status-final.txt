@@ -1,0 +1,2 @@
+NAME                    STATUS     COMPLETIONS   DURATION   AGE   CONTAINERS   IMAGES                    SELECTOR
+signup-validation-job   Complete   8/8           49s        10m   validator    signup-validator:latest   batch.kubernetes.io/controller-uid=62317e0f-9661-4ff4-8205-d73ad11ef263

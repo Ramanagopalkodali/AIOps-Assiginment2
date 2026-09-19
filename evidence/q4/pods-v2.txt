@@ -1,0 +1,3 @@
+NAME                        IMAGE                    READY
+spam-api-788cf78d55-d5zlv   spam-api-multistage:v2   true
+spam-api-788cf78d55-nhjrw   spam-api-multistage:v2   true

@@ -1,0 +1,21 @@
+user_id,name,email,activity,signup_source
+101,User 101,user101@@invalid,machine learning class,web
+102,User 102,,machine learning class,web
+103,,user103@university.edu,lab session,web
+104,User 104,user104@@invalid,basketball,web
+105,User 105,,database class,web
+106,User 106,user106@example.com,machine learning class,web
+107,User 107,user107@example.com,lab session,web
+108,User 108,user108@mail.com,database class,web
+109,User 109,user109@mail.com,database class,web
+110,User 110,user110@example.com,basketball,web
+111,User 111,user111@mail.com,basketball,web
+112,User 112,user112@example.com,basketball,web
+113,User 113,user113@example.com,machine learning class,web
+114,User 114,user114@example.com,lab session,web
+115,User 115,user115@example.com,machine learning class,web
+116,User 116,user116@mail.com,project meeting,web
+117,User 117,user117@example.com,lab session,web
+118,User 118,user118@example.com,lab session,web
+119,User 119,user119@mail.com,project meeting,web
+120,User 120,user120@example.com,project meeting,web

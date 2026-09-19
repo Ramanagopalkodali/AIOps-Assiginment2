@@ -1,0 +1,21 @@
+user_id,name,email,activity,signup_source
+41,User 41,user41@@invalid,database class,web
+42,User 42,,project meeting,web
+43,,user43@university.edu,machine learning class,web
+44,User 44,user44@@invalid,lab session,web
+45,User 45,,machine learning class,web
+46,User 46,user46@example.com,database class,web
+47,User 47,user47@example.com,machine learning class,web
+48,User 48,user48@university.edu,machine learning class,web
+49,User 49,user49@example.com,database class,web
+50,User 50,user50@mail.com,machine learning class,web
+51,User 51,user51@example.com,project meeting,web
+52,User 52,user52@university.edu,project meeting,web
+53,User 53,user53@example.com,machine learning class,web
+54,User 54,user54@example.com,database class,web
+55,User 55,user55@mail.com,lab session,web
+56,User 56,user56@mail.com,machine learning class,web
+57,User 57,user57@mail.com,lab session,web
+58,User 58,user58@university.edu,lab session,web
+59,User 59,user59@university.edu,machine learning class,web
+60,User 60,user60@example.com,database class,web

@@ -1,0 +1,9 @@
+completion_index,shard,total_rows,invalid_rows,pod_name,node_name
+0,signup_shard_0.csv,20,3,signup-validation-job-0-mcnkk,minikube-m02
+1,signup_shard_1.csv,20,4,signup-validation-job-1-xvqqk,minikube
+2,signup_shard_2.csv,20,5,signup-validation-job-2-mw2fl,minikube-m02
+3,signup_shard_3.csv,20,3,signup-validation-job-3-rd65g,minikube
+4,signup_shard_4.csv,20,4,signup-validation-job-4-hbtqn,minikube-m02
+5,signup_shard_5.csv,20,5,signup-validation-job-5-l2kt7,minikube
+6,signup_shard_6.csv,20,3,signup-validation-job-6-c847k,minikube-m02
+7,signup_shard_7.csv,20,4,signup-validation-job-7-67tdp,minikube

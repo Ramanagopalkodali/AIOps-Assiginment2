@@ -1,0 +1,2 @@
+NAME               TYPE       CLUSTER-IP     EXTERNAL-IP   PORT(S)          AGE
+spam-api-service   NodePort   10.98.133.74   <none>        8000:30479/TCP   109s

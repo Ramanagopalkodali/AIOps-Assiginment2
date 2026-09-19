@@ -1,9 +1,10 @@
 === Redis Cache Benchmark ===
 
-First request  (cache miss): 4.796 ms
+First request  (cache miss): 28.172 ms
 Result: {'label': 'spam'}
-Second request (cache hit):  1.382 ms
+Second request (cache hit):  2.463 ms
 Result: {'label': 'spam'}
 
-Speedup: 3.47x
-Latency reduction: 71.19%
+Speedup: 11.44x
+Latency reduction: 91.26%
+

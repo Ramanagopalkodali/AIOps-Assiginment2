@@ -1,0 +1,48 @@
+apiVersion: batch/v1
+kind: Job
+
+metadata:
+  name: signup-validation-job
+
+spec:
+  completions: 8
+  parallelism: 4
+  completionMode: Indexed
+  backoffLimit: 0
+
+  template:
+    metadata:
+      labels:
+        app: signup-validator
+
+    spec:
+      restartPolicy: Never
+
+      containers:
+        - name: validator
+
+          image: signup-validator:latest
+          imagePullPolicy: Never
+
+          env:
+            - name: SHARD_DIR
+              value: /app/shards
+
+            - name: POD_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+
+            - name: NODE_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: spec.nodeName
+
+          resources:
+            requests:
+              cpu: "1"
+              memory: "128Mi"
+
+            limits:
+              cpu: "1"
+              memory: "128Mi"

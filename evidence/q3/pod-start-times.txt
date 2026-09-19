@@ -1,0 +1,9 @@
+NAME                            NODE           START
+signup-validation-job-0-tdcjp   minikube-m02   2026-09-19T11:50:02Z
+signup-validation-job-2-4mwf5   minikube       2026-09-19T11:50:02Z
+signup-validation-job-1-jmk97   minikube-m02   2026-09-19T11:50:35Z
+signup-validation-job-3-bnlsp   minikube       2026-09-19T11:50:35Z
+signup-validation-job-4-h7tvb   minikube-m02   2026-09-19T11:51:07Z
+signup-validation-job-5-dqh2c   minikube       2026-09-19T11:51:07Z
+signup-validation-job-6-dnfws   minikube-m02   2026-09-19T11:51:39Z
+signup-validation-job-7-26947   minikube       2026-09-19T11:51:39Z

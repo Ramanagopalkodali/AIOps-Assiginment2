@@ -1,0 +1,3 @@
+NAME                       READY   STATUS    RESTARTS   AGE     IP            NODE           NOMINATED NODE   READINESS GATES
+spam-api-f49df94d4-q2c76   1/1     Running   0          4m39s   10.244.0.11   minikube       <none>           <none>
+spam-api-f49df94d4-qbqdp   1/1     Running   0          4m39s   10.244.1.10   minikube-m02   <none>           <none>

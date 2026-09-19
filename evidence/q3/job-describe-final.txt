@@ -1,0 +1,56 @@
+Name:               signup-validation-job
+Namespace:          default
+Selector:           batch.kubernetes.io/controller-uid=62317e0f-9661-4ff4-8205-d73ad11ef263
+Labels:             app=signup-validator
+                    batch.kubernetes.io/controller-uid=62317e0f-9661-4ff4-8205-d73ad11ef263
+                    batch.kubernetes.io/job-name=signup-validation-job
+                    controller-uid=62317e0f-9661-4ff4-8205-d73ad11ef263
+                    job-name=signup-validation-job
+Annotations:        <none>
+Parallelism:        4
+Completions:        8
+Completion Mode:    Indexed
+Suspend:            false
+Backoff Limit:      0
+Start Time:         Sat, 19 Sep 2026 13:07:32 +0530
+Completed At:       Sat, 19 Sep 2026 13:08:21 +0530
+Duration:           49s
+Pods Statuses:      0 Active (0 Ready) / 8 Succeeded / 0 Failed
+Completed Indexes:  0-7
+Pod Template:
+  Labels:  app=signup-validator
+           batch.kubernetes.io/controller-uid=62317e0f-9661-4ff4-8205-d73ad11ef263
+           batch.kubernetes.io/job-name=signup-validation-job
+           controller-uid=62317e0f-9661-4ff4-8205-d73ad11ef263
+           job-name=signup-validation-job
+  Containers:
+   validator:
+    Image:      signup-validator:latest
+    Port:       <none>
+    Host Port:  <none>
+    Limits:
+      cpu:     1
+      memory:  128Mi
+    Requests:
+      cpu:     1
+      memory:  128Mi
+    Environment:
+      SHARD_DIR:   /app/shards
+      POD_NAME:     (v1:metadata.name)
+      NODE_NAME:    (v1:spec.nodeName)
+    Mounts:        <none>
+  Volumes:         <none>
+  Node-Selectors:  <none>
+  Tolerations:     <none>
+Events:
+  Type    Reason            Age    From            Message
+  ----    ------            ----   ----            -------
+  Normal  SuccessfulCreate  10m    job-controller  Created pod: signup-validation-job-0-mcnkk
+  Normal  SuccessfulCreate  10m    job-controller  Created pod: signup-validation-job-1-xvqqk
+  Normal  SuccessfulCreate  10m    job-controller  Created pod: signup-validation-job-2-mw2fl
+  Normal  SuccessfulCreate  10m    job-controller  Created pod: signup-validation-job-3-rd65g
+  Normal  SuccessfulCreate  10m    job-controller  Created pod: signup-validation-job-4-hbtqn
+  Normal  SuccessfulCreate  10m    job-controller  Created pod: signup-validation-job-5-l2kt7
+  Normal  SuccessfulCreate  10m    job-controller  Created pod: signup-validation-job-6-c847k
+  Normal  SuccessfulCreate  10m    job-controller  Created pod: signup-validation-job-7-67tdp
+  Normal  Completed         9m57s  job-controller  Job completed

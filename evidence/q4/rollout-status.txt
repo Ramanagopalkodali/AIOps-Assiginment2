@@ -1,0 +1,1 @@
+deployment "spam-api" successfully rolled out
