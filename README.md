@@ -401,3 +401,24 @@ To completely remove the cluster:
 ```bash
 minikube delete
 ```
+# AI Usage Disclosure
+
+AI tools were used as a supporting aid during this assignment for
+understanding concepts, debugging, checking syntax, calculations, and
+formatting the documentation. All implementations were run and verified
+in my own environment.
+
+| Section | AI Usage |
+|---|---|
+| **Report** | Used AI for LaTeX formatting, organizing explanations, and checking calculations. The reported values come from my own experiments. |
+| **Q1 – Docker** | Used AI to understand multi-stage Docker builds, check Dockerfile syntax, and troubleshoot build issues. Images were built and tested manually. |
+| **Q2 – Redis & Compose** | Used AI to understand Redis caching, TTL, Compose networking, and troubleshoot the implementation. The Compose setup and benchmark were run manually. |
+| **Q3 – Kubernetes Job** | Used AI to understand Indexed Jobs, parallelism, the Downward API, and troubleshoot Kubernetes configuration. The Job, scheduling tests, and results were executed and verified manually. |
+| **Q4 – Kubernetes Deployment** | Used AI to understand Deployments, ReplicaSets, Services, self-healing, and rolling updates. The deployment, Pod deletion, and rollout tests were performed manually. |
+
+## Overall Contribution
+
+AI was used mainly as a **learning, debugging, and documentation aid**.
+The Docker builds, Redis tests, Kubernetes workloads, experiments, and
+terminal evidence were performed and verified by me. The numerical results
+and observations in the report are from my own executions.
